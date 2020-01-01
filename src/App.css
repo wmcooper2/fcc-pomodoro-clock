@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "YoshisIsland";
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1872357/YoshisIsland.ttf);
+  src: url(https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/fonts/YoshisIsland.ttf);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   margin: auto;
   min-width: 100vw;
   min-height: 100vh;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1872357/simplecave.png");
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/wmcooper2.com/images/simplecave.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "YoshisIsland";
