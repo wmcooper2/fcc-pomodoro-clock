@@ -1,0 +1,66 @@
+:root {
+  --small-box-width: 300px;
+  --big-box-width: 400px;
+}
+
+@font-face {
+  font-family: "YoshisIsland";
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1872357/YoshisIsland.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1872357/simplecave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "YoshisIsland";
+  font-size: 32px;
+}
+
+button {
+  font-family: "YoshisIsland";
+  font-size: 20px;
+  border-radius: 3px;
+  outline: 0;
+}
+
+.wholeclock {
+  display: flex;
+  flex-direction: row;
+  max-width: 70vw;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.timerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  color: white;
+  padding: 6px;
+  background-color: rgba(55, 94, 73, 1);
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: var(--small-box-width);
+  border: 2px solid white;
+  padding: 6px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin: 3px;
+}
+
+
