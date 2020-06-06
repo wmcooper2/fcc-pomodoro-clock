@@ -1,5 +1,5 @@
 # Pomodoro Clock
-A Super Mario World themed pomodoro clock.
+A Yoshi's Island-themed pomodoro clock.
 
 ![Screenshot](screenshot.jpg)
 
@@ -21,4 +21,4 @@ To learn how to work with timers and intervals in JavaScript.
 
 
 ## More Information
-This project was a requirement for a Free Code Campe certification.
+This project was a requirement for a Free Code Camp certification.
