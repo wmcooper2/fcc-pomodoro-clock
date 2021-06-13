@@ -20,6 +20,7 @@ body {
   background-size: cover;
   font-family: "YoshisIsland";
   font-size: 32px;
+  overflow: hidden;
 }
 
 button {
